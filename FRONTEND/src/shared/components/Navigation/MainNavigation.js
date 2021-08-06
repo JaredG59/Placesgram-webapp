@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import { Link } from 'react-router-dom';
+import navimage from '../../../images/navimage.png'; 
 
 import MainHeader from './MainHeader';
 import NavLinks from './NavLinks';
@@ -35,7 +36,8 @@ const MainNavigation = props => {
         <span />
       </button>
       <h1 className="main-navigation__title">
-        <Link to="/">Placesgram</Link>
+        
+        <Link to="/"><img src={navimage} className="main-navigation__img-nav" alt=""></img>Placesgram</Link>
       </h1>
       <nav className="main-navigation__header-nav">
         <NavLinks />

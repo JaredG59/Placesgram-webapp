@@ -43,3 +43,8 @@
     display: block;
   }
 }
+
+  .main-navigation__img-nav {
+    margin-right: 1rem;
+    width: 3rem;
+  }
